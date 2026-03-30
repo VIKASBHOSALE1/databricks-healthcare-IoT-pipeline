@@ -1,16 +1,7 @@
-End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured Streaming, and Medallion Architecture
-
 # databricks-healthcare-IoT-pipeline
 End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured Streaming, and Medallion Architecture	
 
 # Healthcare IoT Patient Vitals Monitoring Pipeline
-<img width="1765" height="902" alt="image" src="https://github.com/user-attachments/assets/ee3f0e9d-cd82-4f40-a7a5-44ad13c8c436" />
-<img width="1485" height="841" alt="image" src="https://github.com/user-attachments/assets/a45e08f6-22a9-4ab3-b887-0690d6ae53e8" />
-
-
-
-
-
 ## What this project does
 An end-to-end data engineering pipeline that ingests real-time IoT patient
 vitals data, processes it through a Medallion Architecture (Bronze ? Silver ? Gold),
@@ -18,7 +9,8 @@ detects anomalies, and serves analytics via a SQL Dashboard — built entirely
 on Databricks Community Edition (zero cost).
  
 ## Architecture
-
+<img width="1765" height="902" alt="image" src="https://github.com/user-attachments/assets/ee3f0e9d-cd82-4f40-a7a5-44ad13c8c436" />
+<img width="1485" height="841" alt="image" src="https://github.com/user-attachments/assets/a45e08f6-22a9-4ab3-b887-0690d6ae53e8" />
 
 
 
@@ -70,8 +62,6 @@ Source: Kaggle Healthcare IoT Dataset
 5. Or use the Databricks Job defined in this repo
  
 ## Dashboard
-https://dbc-301430ab-feda.cloud.databricks.com/dashboardsv3/01f129f2a5f213a882b12e1a03069e46/published?o=806254623912869
-
 See outputs/<img width="1763" height="887" alt="image" src="https://github.com/user-attachments/assets/8e961233-33ab-463e-ba71-dd4973174b14" />
 
 ## Author
