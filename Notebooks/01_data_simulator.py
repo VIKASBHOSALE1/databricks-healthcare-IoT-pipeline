@@ -13,7 +13,7 @@ data_df.printSchema()
 
 # COMMAND ----------
 
-display(data_df.count())
+# display(data_df.count())
 
 # COMMAND ----------
 
