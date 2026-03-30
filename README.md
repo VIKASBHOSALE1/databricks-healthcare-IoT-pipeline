@@ -4,18 +4,6 @@ End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured
 # databricks-healthcare-IoT-pipeline
 End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured Streaming, and Medallion Architecture	
  
-## What this project does
-An end-to-end data engineering pipeline that ingests real-time IoT patient
-vitals data, processes it through a Medallion Architecture (Bronze ? Silver ? Gold),
-detects anomalies, and serves analytics via a SQL Dashboard — built entirely
-on Databricks Community Edition (zero cost).
- 
-<img width="1765" height="902" alt="image" src="https://github.com/user-attachments/assets/ee3f0e9d-cd82-4f40-a7a5-44ad13c8c436" />
-<img width="1485" height="841" alt="image" src="https://github.com/user-attachments/assets/a45e08f6-22a9-4ab3-b887-0690d6ae53e8" />
-
-
-
-
 
 ## What this project does
 An end-to-end data engineering pipeline that ingests real-time IoT patient
@@ -25,6 +13,8 @@ on Databricks Community Edition (zero cost).
  
 ## Architecture
 
+<img width="1765" height="902" alt="image" src="https://github.com/user-attachments/assets/ee3f0e9d-cd82-4f40-a7a5-44ad13c8c436" />
+<img width="1485" height="841" alt="image" src="https://github.com/user-attachments/assets/a45e08f6-22a9-4ab3-b887-0690d6ae53e8" />
 
 
 
@@ -89,13 +79,7 @@ on Databricks Community Edition (zero cost).
 Healthcare IoT sensor data — 2200 records across 50 patients, 14 days
 Vitals: Heart Rate, SpO2, Temperature, Blood Pressure
 Source: Kaggle Healthcare IoT Dataset
- 
- 
 
-## Dataset
-Healthcare IoT sensor data â€” 2200 records across 50 patients, 14 days
-Vitals: Heart Rate, SpO2, Temperature, Blood Pressure
-Source: Kaggle Healthcare IoT Dataset
  
 ## How to Run
 1. Import notebooks into Databricks Community Edition
