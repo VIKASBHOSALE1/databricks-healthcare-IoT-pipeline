@@ -70,6 +70,8 @@ Source: Kaggle Healthcare IoT Dataset
 5. Or use the Databricks Job defined in this repo
  
 ## Dashboard
+https://dbc-301430ab-feda.cloud.databricks.com/dashboardsv3/01f129f2a5f213a882b12e1a03069e46/published?o=806254623912869
+
 See outputs/<img width="1763" height="887" alt="image" src="https://github.com/user-attachments/assets/8e961233-33ab-463e-ba71-dd4973174b14" />
 
 ## Author
