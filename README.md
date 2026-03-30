@@ -3,8 +3,6 @@ End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured
 
 # databricks-healthcare-IoT-pipeline
 End-to-end healthcare IoT data pipeline using Databricks, Delta Lake, Structured Streaming, and Medallion Architecture	
-
-# Healthcare IoT Patient Vitals Monitoring Pipeline
  
 ## What this project does
 An end-to-end data engineering pipeline that ingests real-time IoT patient
