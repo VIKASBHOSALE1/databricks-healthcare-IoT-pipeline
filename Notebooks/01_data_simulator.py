@@ -13,7 +13,7 @@ data_df.printSchema()
 
 # COMMAND ----------
 
-display(data_df.count())
+# display(data_df.count())
 
 # COMMAND ----------
 
@@ -24,7 +24,7 @@ data_df.select([count(when(isnull(c), c)).alias(c) for c in data_df.columns]).sh
 
 # COMMAND ----------
 
-data_df.select("Timestamp").distinct().show()
+# data_df.select("Timestamp").distinct().show()
 
 # COMMAND ----------
 
@@ -70,6 +70,10 @@ dbutils.fs.ls(path)
 
 # for cleaning up the directory
 # dbutils.fs.rm("/Volumes/cat_helathcare_iot_patients/default/landing_zone/",True)
+
+# COMMAND ----------
+
+print("Hello Git Integration")
 
 # COMMAND ----------
 
