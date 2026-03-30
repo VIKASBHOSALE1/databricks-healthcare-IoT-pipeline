@@ -12,7 +12,6 @@ vitals data, processes it through a Medallion Architecture (Bronze ? Silver ? Go
 detects anomalies, and serves analytics via a SQL Dashboard — built entirely
 on Databricks Community Edition (zero cost).
  
-=======
 <img width="1765" height="902" alt="image" src="https://github.com/user-attachments/assets/ee3f0e9d-cd82-4f40-a7a5-44ad13c8c436" />
 <img width="1485" height="841" alt="image" src="https://github.com/user-attachments/assets/a45e08f6-22a9-4ab3-b887-0690d6ae53e8" />
 
@@ -109,11 +108,6 @@ Source: Kaggle Healthcare IoT Dataset
  
 ## Dashboard
 See outputs/healthcare_iot_dashboard
-
- 
- 
-## Dashboard
-https://dbc-301430ab-feda.cloud.databricks.com/dashboardsv3/01f129f2a5f213a882b12e1a03069e46/published?o=806254623912869
 
 See outputs/<img width="1763" height="887" alt="image" src="https://github.com/user-attachments/assets/8e961233-33ab-463e-ba71-dd4973174b14" />
 
